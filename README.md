@@ -1,13 +1,23 @@
 # QaFuzz - 测试域名自动化挖掘工具
 
+[![GitHub Stars](https://img.shields.io/github/stars/darkfiv/QaFuzz?style=for-the-badge)](https://github.com/darkfiv/QaFuzz/stargazers)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/darkfiv/QaFuzz?style=for-the-badge)](https://github.com/darkfiv/QaFuzz/commits/main)
+
+
 ## 工具概述
 QaFuzz是一款专为安全研究人员设计的自动化工具，用于发现企业测试环境暴露在公网的子域名。通过智能生成测试域名、验证DNS解析和响应状态，帮助挖掘潜在的安全漏洞。
 
-## 功能特点
-- 自定义配置常见测试子域名（test/dev/stage等，多个子域名以,分开）
-- 验证DNS解析是否为外网IP
-- 检测可访问的测试环境路径
-- 与主流漏洞扫描工具联动
+## ✨ 功能特性
+
+<div align="center">
+
+| 🎯 智能生成 | 🔍 精准验证 | 🤝 工具联动 |
+|------------|------------|------------|
+| 自动组合test/dev/stage等子域名 | 验证DNS解析为外网IP | OneScan｜APiKit等 |
+
+
+</div>
+
 
 
 ## 运行效果
@@ -26,5 +36,6 @@ QaFuzz是一款专为安全研究人员设计的自动化工具，用于发现�
 ## 贡献
 欢迎提交Issue或Pull Request
 
-## 许可证
-MIT License
+
+## 📊 项目统计
+![GitHub Star趋势图](https://starchart.cc/darkfiv/QaFuzz.svg)
