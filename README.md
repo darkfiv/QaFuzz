@@ -38,4 +38,4 @@ QaFuzz是一款专为安全研究人员设计的自动化工具，用于发现�
 
 
 ## 📊 项目统计
-![GitHub Star趋势图](https://starchart.cc/darkfiv/QaFuzz.svg)
+[![Stargazers over time](https://starchart.cc/darkfiv/QaFuzz.svg)](https://starchart.cc/darkfiv/QaFuzz.svg)
