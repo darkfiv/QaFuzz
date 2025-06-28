@@ -35,13 +35,13 @@ QaFuzz是一款专为安全研究人员设计的自动化工具，用于发现�
 ## 怎么打jar包【作者用的jdk11编译】
 1. 下载好源码后，用idea打开项目，File->Project structure
 ![img.png](img/img.png)
-![img.png](img.png)
+![img.png](img/img.png)
 下面的都默认，不用点，直接ok就行！
-![img_2.png](img_2.png)
-![img_1.png](img_1.png)
+![img_2.png](img/img_2.png)
+![img_1.png](img/img_1.png)
 编译jar包 【windows一样找这个按钮就行】
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
+![img_3.png](img/img_3.png)
+![img_4.png](img/img_4.png)
 然后就会看到out/artifacts/burp_jar目录下打包好的jar文件，直接在burp中导入就行
 ## 最佳实践
 1. 结合Burp Suite使用：将发现的可疑请求直接发送到QaFuzz
