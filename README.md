@@ -26,7 +26,14 @@ QaFuzz是一款专为安全研究人员设计的自动化工具，用于发现�
 ## 工具安装
 ### Burp Suite插件导入即可
 1. 安装`QaFuzz`的Burp扩展
-2. 在Burp中右键目标域名 → "Send to QaFuzz"
+   ![image](https://github.com/user-attachments/assets/0d5794ab-c842-4255-bcfd-dc4c2e70c558)
+2. 在QaFuzz工具中，配置需要探测的测试域名关键字，多个关键字以,分割
+   ![image](https://github.com/user-attachments/assets/3aa1b50d-fe80-4a2c-9d92-bd4576f4c701)
+3. 在Burp中右键目标域名 → "Send to QaFuzz"
+   ![image](https://github.com/user-attachments/assets/e91f016c-b8b3-452f-9983-4d583864cbdc)
+
+
+
 
 ## 最佳实践
 1. 结合Burp Suite使用：将发现的可疑请求直接发送到QaFuzz
@@ -38,4 +45,4 @@ QaFuzz是一款专为安全研究人员设计的自动化工具，用于发现�
 
 
 ## 📊 项目统计
-![GitHub Star趋势图](https://starchart.cc/darkfiv/QaFuzz.svg)
+[![Stargazers over time](https://starchart.cc/darkfiv/QaFuzz.svg)](https://starchart.cc/darkfiv/QaFuzz.svg)
